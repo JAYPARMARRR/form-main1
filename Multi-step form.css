@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+
+
+
+
+.main-div {
+    box-shadow: 0px -1px 10px 1px rgba(0, 0, 0, 0.38);
+    /* background-color: rgb(243, 163, 163); */
+    height: 542px;
+    width: 1130px;
+    display: flex;
+    margin: 240px 163px;
+    border-radius: 15px;
+}
+
+.side-left-box {
+    /* border: 1px solid rgb(97, 3, 3); */
+    box-shadow: 0px -1px 10px 1px rgba(0, 0, 0, 0.38);
+    height: 508px;
+    width: 283px;
+    background-color: #5151ff;
+    margin: 20px;
+    border-radius: 9px;
+}
+
+
+.steps {
+    display: flex;
+    align-items: center;
+    width: 248px;
+    height: 36px;
+    padding: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.step-1 {
+    width: 77px;
+    margin-left: 20px;
+    color: wheat;
+}
+
+
+
+
+.number-of-dtep-1 {
+    margin-left: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 32px;
+    border-radius: 62%;
+    border: 2px solid white;
+    color: wheat;
+}
+
+
+
+.right-side-main-box {
+    /* border: 1px solid black; */
+    /* align-self: flex-start; */
+    /* float: right; */
+    width: 53%;
+    margin-left: 91px;
+    padding-top: 41px;
+}
+
+
+/* .heding{
+    text-align: center;
+} */
+
+
+.paragraph {
+    width: 66%;
+    margin-top: 10px;
+}
+
+
+.from-main-box {
+    padding-top: 28px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 64%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 13px 26px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #6566ff;
+    color: white;
+    cursor: pointer;
+
+}
+
+.next-step-btn-div {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 97px;
+}
+
+.btn:hover {
+    background-color: #3737d4;
+}
+
+.number-of-dtep-1:hover {
+    background-color: rgb(255, 253, 253);
+    color: black;
+}
+
+.steps:hover  .number-of-dtep-1{
+    background-color: rgb(255, 253, 253);
+    color: black;
+}
+
+
+/* .hovars-number-of-dtep-1:hover{
+    color: white;
+} */
+
+/* .step-1:hover ~ .number-of-dtep-1 {
+    background-color:rgb(255, 253, 253) ;
+  }
+   */
+/* .steps:hover{
+    background-color: rgb(255, 253, 253);
+  } */
